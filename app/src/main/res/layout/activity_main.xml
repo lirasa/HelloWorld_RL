@@ -23,7 +23,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="25dp"
         android:text="Button"
-        android:onClick="btnChangeTextClick"
         app:layout_constraintBottom_toTopOf="@+id/tvMain"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
