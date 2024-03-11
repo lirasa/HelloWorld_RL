@@ -1,6 +1,5 @@
 package com.example.helloworld_rl;
 
-import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -31,9 +30,4 @@ public class MainActivity extends AppCompatActivity {
     public void btnChangeTextClick(View view) {
         this.tvMain.setText("Hello");
     }
-
-    public void btnChangeTextColorClick(View view) {
-        this.tvMain.setTextColor(Color.parseColor("#FF0000"));
-    }
-
 }
